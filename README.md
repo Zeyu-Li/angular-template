@@ -1,6 +1,10 @@
 # Angular Template Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9 with the following command:
+
+```shell
+ng new angularTemplate
+```
 
 
 
@@ -9,6 +13,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 To rename the project, the easiest way is to use a angular rename package
 
 npm site is here: https://www.npmjs.com/package/angular-rename
+
+
 
 
 
