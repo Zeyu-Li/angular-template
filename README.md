@@ -30,7 +30,7 @@ Use
 ng serve -o
 ```
 
-To serve and open a browser at the some time pointing to localhost:4200
+To serve and open a browser at the same time pointing to localhost:4200
 
 
 
