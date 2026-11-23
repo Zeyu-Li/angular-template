@@ -1,10 +1,17 @@
 # Angular Template Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9 with the following command:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9 with the following command, and has since been upgraded to Angular 22:
 
 ```shell
 ng new angularTemplate
 ```
+
+
+
+## Requirements
+
+- Node.js `^22.22.3`, `^24.15.0` or `>=26`
+- [Yarn](https://classic.yarnpkg.com/) 1.x (`yarn install` to install dependencies)
 
 
 
@@ -20,7 +27,7 @@ npm site is here: https://www.npmjs.com/package/angular-rename
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `yarn start` (or `ng serve`) for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 OR
 
@@ -42,22 +49,28 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `yarn build` (or `ng build`) to build the project. The build artifacts will be stored in the `dist/` directory. Builds use the production configuration by default; use `ng build --configuration development` for a development build.
 
 
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `yarn test` (or `ng test`) to execute the unit tests via [Vitest](https://vitest.dev).
 
 
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `yarn e2e` to execute the end-to-end tests via [Playwright](https://playwright.dev). The first time, install its browser with `yarn playwright install chromium`.
+
+
+
+## Linting
+
+Run `yarn lint` (or `ng lint`) to lint the project via [angular-eslint](https://github.com/angular-eslint/angular-eslint).
 
 
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli).
